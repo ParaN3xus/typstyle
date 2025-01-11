@@ -19,7 +19,6 @@ itertools.workspace = true
 walkdir.workspace = true
 
 pretty_assertions.workspace = true
-reflexo-world.workspace = true
 reflexo-typst.workspace = true
 typst-assets.workspace = true
 typst-render.workspace = true
