@@ -19,7 +19,7 @@ typstyle = { path = "crates/typstyle", version = "0.12.14" }
 typstyle-consistency = { path = "crates/typstyle-consistency" }
 
 # Used in core
-typst-syntax = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
+typst-syntax = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19" }
 
 ecow = "0.2.3"
 itertools = "0.13.0"
@@ -45,19 +45,19 @@ libtest-mimic = "0.8.1"
 pretty_assertions = "1.4.1"
 tempfile = "3"
 
-reflexo-world = { git = "https://github.com/paran3xus/typst.ts/", branch = "nightly", default-features = false, features = [
+reflexo-world = { git = "https://github.com/paran3xus/typst.ts/", tag = "tinymist-nightly-v0.12.19", default-features = false, features = [
   "system",
 ] }
-reflexo-typst = { git = "https://github.com/paran3xus/typst.ts/", branch = "nightly", default-features = false, features = [
+reflexo-typst = { git = "https://github.com/paran3xus/typst.ts/", tag = "tinymist-nightly-v0.12.19", default-features = false, features = [
   "system",
   "no-content-hint",
 ] }
 
 typst-assets = { version = "0.12.0", features = ["fonts"] }
-typst-render = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
-typst-eval = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
-typst-pdf = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
-typst = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
+typst-render = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19" }
+typst-eval = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19" }
+typst-pdf = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19" }
+typst = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19" }
 
 
 # Used in benchmark

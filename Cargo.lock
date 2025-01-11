@@ -2563,7 +2563,7 @@ dependencies = [
 [[package]]
 name = "reflexo"
 version = "0.5.4"
-source = "git+https://github.com/paran3xus/typst.ts/?branch=nightly#2a686cd45d842f994bfa1ee549d8709d8e2a7988"
+source = "git+https://github.com/paran3xus/typst.ts/?tag=tinymist-nightly-v0.12.19#2dea30f031b397a4c21bca609cbab469f5c298ba"
 dependencies = [
  "base64",
  "bitvec",
@@ -2590,7 +2590,7 @@ dependencies = [
 [[package]]
 name = "reflexo-typst"
 version = "0.5.4"
-source = "git+https://github.com/paran3xus/typst.ts/?branch=nightly#2a686cd45d842f994bfa1ee549d8709d8e2a7988"
+source = "git+https://github.com/paran3xus/typst.ts/?tag=tinymist-nightly-v0.12.19#2dea30f031b397a4c21bca609cbab469f5c298ba"
 dependencies = [
  "codespan-reporting",
  "comemo",
@@ -2613,13 +2613,13 @@ dependencies = [
  "tar",
  "tokio",
  "typst 0.12.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "typst-eval 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
+ "typst-eval 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
 ]
 
 [[package]]
 name = "reflexo-typst-shim"
 version = "0.5.4"
-source = "git+https://github.com/paran3xus/typst.ts/?branch=nightly#2a686cd45d842f994bfa1ee549d8709d8e2a7988"
+source = "git+https://github.com/paran3xus/typst.ts/?tag=tinymist-nightly-v0.12.19#2dea30f031b397a4c21bca609cbab469f5c298ba"
 dependencies = [
  "cfg-if",
  "typst 0.12.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -2629,7 +2629,7 @@ dependencies = [
 [[package]]
 name = "reflexo-typst2vec"
 version = "0.5.4"
-source = "git+https://github.com/paran3xus/typst.ts/?branch=nightly#2a686cd45d842f994bfa1ee549d8709d8e2a7988"
+source = "git+https://github.com/paran3xus/typst.ts/?tag=tinymist-nightly-v0.12.19#2dea30f031b397a4c21bca609cbab469f5c298ba"
 dependencies = [
  "bitvec",
  "comemo",
@@ -2654,7 +2654,7 @@ dependencies = [
 [[package]]
 name = "reflexo-vfs"
 version = "0.5.4"
-source = "git+https://github.com/paran3xus/typst.ts/?branch=nightly#2a686cd45d842f994bfa1ee549d8709d8e2a7988"
+source = "git+https://github.com/paran3xus/typst.ts/?tag=tinymist-nightly-v0.12.19#2dea30f031b397a4c21bca609cbab469f5c298ba"
 dependencies = [
  "indexmap 2.7.0",
  "log",
@@ -2668,7 +2668,7 @@ dependencies = [
 [[package]]
 name = "reflexo-world"
 version = "0.5.4"
-source = "git+https://github.com/paran3xus/typst.ts/?branch=nightly#2a686cd45d842f994bfa1ee549d8709d8e2a7988"
+source = "git+https://github.com/paran3xus/typst.ts/?tag=tinymist-nightly-v0.12.19#2dea30f031b397a4c21bca609cbab469f5c298ba"
 dependencies = [
  "chrono",
  "codespan-reporting",
@@ -3896,19 +3896,19 @@ dependencies = [
 [[package]]
 name = "typst"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "comemo",
  "ecow",
- "typst-eval 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-eval 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "typst-html",
  "typst-layout",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "typst-realize",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
 ]
 
 [[package]]
@@ -3925,7 +3925,7 @@ source = "git+https://github.com/typst/typst-assets?rev=8cccef9#8cccef93b5da73a1
 [[package]]
 name = "typst-eval"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "comemo",
  "ecow",
@@ -3933,18 +3933,18 @@ dependencies = [
  "indexmap 2.7.0",
  "stacker",
  "toml",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "unicode-segmentation",
 ]
 
 [[package]]
 name = "typst-eval"
 version = "0.12.0"
-source = "git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
+source = "git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
 dependencies = [
  "comemo",
  "ecow",
@@ -3952,33 +3952,33 @@ dependencies = [
  "indexmap 2.7.0",
  "stacker",
  "toml",
- "typst-library 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-macros 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-syntax 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-timing 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-utils 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
+ "typst-library 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-macros 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-syntax 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-timing 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-utils 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
  "unicode-segmentation",
 ]
 
 [[package]]
 name = "typst-html"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "comemo",
  "ecow",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "typst-svg",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
 ]
 
 [[package]]
 name = "typst-layout"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "az",
  "bumpalo",
@@ -3995,11 +3995,11 @@ dependencies = [
  "smallvec",
  "ttf-parser",
  "typst-assets 0.12.0 (git+https://github.com/typst/typst-assets?rev=8cccef9)",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "unicode-bidi",
  "unicode-math-class",
  "unicode-script",
@@ -4009,7 +4009,7 @@ dependencies = [
 [[package]]
 name = "typst-library"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "az",
  "bitflags 2.7.0",
@@ -4053,10 +4053,10 @@ dependencies = [
  "two-face",
  "typed-arena",
  "typst-assets 0.12.0 (git+https://github.com/typst/typst-assets?rev=8cccef9)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "unicode-math-class",
  "unicode-segmentation",
  "unscanny",
@@ -4068,7 +4068,7 @@ dependencies = [
 [[package]]
 name = "typst-library"
 version = "0.12.0"
-source = "git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
+source = "git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
 dependencies = [
  "az",
  "bitflags 2.7.0",
@@ -4112,10 +4112,10 @@ dependencies = [
  "two-face",
  "typed-arena",
  "typst-assets 0.12.0 (git+https://github.com/typst/typst-assets?rev=8cccef9)",
- "typst-macros 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-syntax 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-timing 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-utils 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
+ "typst-macros 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-syntax 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-timing 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-utils 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
  "unicode-math-class",
  "unicode-segmentation",
  "unscanny",
@@ -4139,7 +4139,7 @@ dependencies = [
 [[package]]
 name = "typst-macros"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -4150,7 +4150,7 @@ dependencies = [
 [[package]]
 name = "typst-macros"
 version = "0.12.0"
-source = "git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
+source = "git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -4189,7 +4189,7 @@ dependencies = [
 [[package]]
 name = "typst-pdf"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "arrayvec 0.7.6",
  "base64",
@@ -4205,35 +4205,35 @@ dependencies = [
  "svg2pdf",
  "ttf-parser",
  "typst-assets 0.12.0 (git+https://github.com/typst/typst-assets?rev=8cccef9)",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "xmp-writer",
 ]
 
 [[package]]
 name = "typst-realize"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "arrayvec 0.7.6",
  "bumpalo",
  "comemo",
  "ecow",
  "regex",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
 ]
 
 [[package]]
 name = "typst-render"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "bytemuck",
  "comemo",
@@ -4242,25 +4242,25 @@ dependencies = [
  "resvg",
  "tiny-skia",
  "ttf-parser",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
 ]
 
 [[package]]
 name = "typst-svg"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "base64",
  "comemo",
  "ecow",
  "flate2",
  "ttf-parser",
- "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-library 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-macros 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "xmlparser",
  "xmlwriter",
 ]
@@ -4286,13 +4286,13 @@ dependencies = [
 [[package]]
 name = "typst-syntax"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "ecow",
  "serde",
  "toml",
- "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
- "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-timing 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
+ "typst-utils 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "unicode-ident",
  "unicode-math-class",
  "unicode-script",
@@ -4303,13 +4303,13 @@ dependencies = [
 [[package]]
 name = "typst-syntax"
 version = "0.12.0"
-source = "git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
+source = "git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
 dependencies = [
  "ecow",
  "serde",
  "toml",
- "typst-timing 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
- "typst-utils 0.12.0 (git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint)",
+ "typst-timing 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
+ "typst-utils 0.12.0 (git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint)",
  "unicode-ident",
  "unicode-math-class",
  "unicode-script",
@@ -4332,7 +4332,7 @@ dependencies = [
 [[package]]
 name = "typst-timing"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "parking_lot",
  "serde",
@@ -4342,7 +4342,7 @@ dependencies = [
 [[package]]
 name = "typst-timing"
 version = "0.12.0"
-source = "git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
+source = "git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
 dependencies = [
  "parking_lot",
  "serde",
@@ -4365,7 +4365,7 @@ dependencies = [
 [[package]]
 name = "typst-utils"
 version = "0.12.0"
-source = "git+https://github.com/paran3xus/typst.git?branch=nightly#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
+source = "git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19#fe6a29a31a4c3ddd5bb77a18354ccd23bfb9b5ab"
 dependencies = [
  "once_cell",
  "portable-atomic",
@@ -4377,7 +4377,7 @@ dependencies = [
 [[package]]
 name = "typst-utils"
 version = "0.12.0"
-source = "git+https://github.com/ParaN3xus/typst?branch=nightly-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
+source = "git+https://github.com/ParaN3xus/typst?tag=tinymist-nightly-v0.12.19-content-hint#7e9e39c16161f5fd80bff68f90f3dbc1abafc91f"
 dependencies = [
  "once_cell",
  "portable-atomic",
@@ -4399,7 +4399,7 @@ dependencies = [
  "insta-cmd",
  "log",
  "tempfile",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "typstyle-core",
  "vergen",
  "vergen-gitcl",
@@ -4416,9 +4416,9 @@ dependencies = [
  "pretty_assertions",
  "reflexo-typst",
  "reflexo-world",
- "typst 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "typst-assets 0.12.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "typst-pdf 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-pdf 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "typst-render",
  "walkdir",
 ]
@@ -4434,7 +4434,7 @@ dependencies = [
  "pretty",
  "rustc-hash",
  "serde",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "wasm-bindgen",
 ]
 
@@ -4446,7 +4446,7 @@ dependencies = [
  "insta",
  "libtest-mimic",
  "pretty_assertions",
- "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?branch=nightly)",
+ "typst-syntax 0.12.0 (git+https://github.com/paran3xus/typst.git?tag=tinymist-nightly-v0.12.19)",
  "typstyle-consistency",
  "typstyle-core",
 ]
