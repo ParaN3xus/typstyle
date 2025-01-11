@@ -19,7 +19,7 @@ typstyle = { path = "crates/typstyle", version = "0.12.14" }
 typstyle-consistency = { path = "crates/typstyle-consistency" }
 
 # Used in core
-typst-syntax = "0.12.0"
+typst-syntax = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
 
 ecow = "0.2.3"
 itertools = "0.13.0"
@@ -45,17 +45,20 @@ libtest-mimic = "0.8.1"
 pretty_assertions = "1.4.1"
 tempfile = "3"
 
-reflexo-world = { version = "0.5.0", default-features = false, features = [
+reflexo-world = { git = "https://github.com/paran3xus/typst.ts/", branch = "nightly", default-features = false, features = [
   "system",
 ] }
-reflexo-typst = { version = "0.5.0", default-features = false, features = [
+reflexo-typst = { git = "https://github.com/paran3xus/typst.ts/", branch = "nightly", default-features = false, features = [
   "system",
   "no-content-hint",
 ] }
+
 typst-assets = { version = "0.12.0", features = ["fonts"] }
-typst-render = "0.12.0"
-typst-pdf = "0.12.0"
-typst = "0.12.0"
+typst-render = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
+typst-eval = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
+typst-pdf = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
+typst = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
+
 
 # Used in benchmark
 criterion = { version = "0.5" }
