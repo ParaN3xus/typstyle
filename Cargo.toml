@@ -75,16 +75,16 @@ debug = true
 
 [patch.crates-io]
 typst-assets = { git = "https://github.com/typst/typst-assets", rev = "8cccef9", features = ["fonts"] }
-typst-syntax = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
-typst-render = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
-typst-eval = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
-typst-pdf = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
-typst = { git = "https://github.com/paran3xus/typst.git", branch = "nightly" }
+typst-syntax = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19-rc2-content-hint" }
+typst-render = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19-rc2-content-hint" }
+typst-eval = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19-rc2-content-hint" }
+typst-pdf = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19-rc2-content-hint" }
+typst = { git = "https://github.com/paran3xus/typst.git", tag = "tinymist-nightly-v0.12.19-rc2-content-hint" }
 
-reflexo-world = { git = "https://github.com/paran3xus/typst.ts/", branch = "nightly", default-features = false, features = [
+reflexo-world = { git = "https://github.com/paran3xus/typst.ts/", tag = "tinymist-nightly-v0.12.19-rc2", default-features = false, features = [
   "system",
 ] }
-reflexo-typst = { git = "https://github.com/paran3xus/typst.ts/", branch = "nightly", default-features = false, features = [
+reflexo-typst = { git = "https://github.com/paran3xus/typst.ts/", tag = "tinymist-nightly-v0.12.19-rc2", default-features = false, features = [
   "system",
   "no-content-hint",
 ] }

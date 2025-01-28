@@ -1,0 +1,197 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'typstyle'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=typstyle",
+                    "--package=typstyle"
+                ],
+                "filter": {
+                    "name": "typstyle",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'typstyle'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=typstyle",
+                    "--package=typstyle"
+                ],
+                "filter": {
+                    "name": "typstyle",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'common'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=common",
+                    "--package=typstyle"
+                ],
+                "filter": {
+                    "name": "common",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'test_format'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=test_format",
+                    "--package=typstyle"
+                ],
+                "filter": {
+                    "name": "test_format",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'test_format_all'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=test_format_all",
+                    "--package=typstyle"
+                ],
+                "filter": {
+                    "name": "test_format_all",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'test_format_stdin'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=test_format_stdin",
+                    "--package=typstyle"
+                ],
+                "filter": {
+                    "name": "test_format_stdin",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'typstyle_core'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=typstyle-core"
+                ],
+                "filter": {
+                    "name": "typstyle_core",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug benchmark 'pretty_print'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bench=pretty_print",
+                    "--package=typstyle-core"
+                ],
+                "filter": {
+                    "name": "pretty_print",
+                    "kind": "bench"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'typstyle_consistency'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=typstyle-consistency"
+                ],
+                "filter": {
+                    "name": "typstyle_consistency",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=tests",
+                    "--package=typstyle-tests"
+                ],
+                "filter": {
+                    "name": "tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

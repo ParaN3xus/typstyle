@@ -161,6 +161,7 @@ impl<'a> PrettyPrinter<'a> {
             Expr::Continue(c) => self.convert_continue(c),
             Expr::Return(r) => self.convert_return(r),
             Expr::Contextual(c) => self.convert_contextual(c),
+            Expr::MathText(c) => self.convert_mathtext(c),
         }
         .group()
     }
@@ -266,6 +267,10 @@ impl<'a> PrettyPrinter<'a> {
             }
         }
         doc
+    }
+
+    pub(super) fn convert_mathtext(&'a self, mathtext: MathText<'a>) -> ArenaDoc<'a> {
+        self.convert_trivia_untyped(mathtext.to_untyped())
     }
 
     fn convert_ident(&'a self, ident: Ident<'a>) -> ArenaDoc<'a> {
