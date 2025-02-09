@@ -10,11 +10,11 @@ input_file: tests/fixtures/unit/comment/convergence.typ
 - /* bar
    */ 123
 
-- /* bar
-   */
+-  /* bar
+    */
 
-- /* foo
-   */
+-  /* foo
+    */
 
 #[
   /* Somebody write this up:
