@@ -2615,7 +2615,7 @@ source = "git+https://github.com/paran3xus/typst.ts?rev=369f66dfab645d7a24d8307b
 dependencies = [
  "cfg-if",
  "typst",
- "typst-syntax 0.12.0",
+ "typst-syntax",
 ]
 
 [[package]]
@@ -4014,7 +4014,7 @@ dependencies = [
  "insta-cmd",
  "log",
  "tempfile",
- "typst-syntax 0.13.0-rc1",
+ "typst-syntax",
  "typstyle-core",
  "vergen",
  "vergen-gitcl",
@@ -4049,7 +4049,7 @@ dependencies = [
  "pretty",
  "rustc-hash",
  "serde",
- "typst-syntax 0.13.0-rc1",
+ "typst-syntax",
  "wasm-bindgen",
 ]
 
@@ -4061,7 +4061,7 @@ dependencies = [
  "insta",
  "libtest-mimic",
  "pretty_assertions",
- "typst-syntax 0.13.0-rc1",
+ "typst-syntax",
  "typstyle-consistency",
  "typstyle-core",
 ]
