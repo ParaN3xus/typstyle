@@ -50,7 +50,7 @@ impl Typstyle {
 
 /// Get a Markup/Expr/Pattern node from source with minimal span that covering the given range.
 fn get_node_cover_range(source: &Source, range: Range<usize>) -> Option<(LinkedNode, Mode)> {
-    let range = range.start..range.end.min(source.len_bytes());
+    let range = range.start..range.end.min(source.lines().len_bytes());
     get_node_cover_range_impl(range, LinkedNode::new(source.root()), Mode::Markup)
         .and_then(|(span, mode)| source.find(span).map(|node| (node, mode)))
 }
