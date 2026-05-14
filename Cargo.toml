@@ -21,7 +21,7 @@ typstyle-wasm = { path = "crates/typstyle-wasm", version = "0.14.4" }
 typstyle-consistency = { path = "crates/typstyle-consistency" }
 
 # Used in core
-typst-syntax = "0.14.2"
+typst-syntax = "0.15.0"
 
 ecow = "0.2.3"
 itertools = "0.14"
@@ -64,8 +64,8 @@ toml = "0.8"
 tinymist-world = { version = "0.14.6", default-features = false, features = ["system"] }
 
 typst-assets = "0.14.2"
-typst-render = "0.14.2"
-typst = "0.14.2"
+typst-render = "0.15.0"
+typst = "0.15.0"
 
 # Used in benchmark
 criterion = { version = "0.8" }
@@ -86,5 +86,12 @@ inherits = "release"
 debug = true
 
 [patch.crates-io]
+typst = { path = "../typst/crates/typst" }
+typst-render = { path = "../typst/crates/typst-render" }
+typst-syntax = { path = "../typst/crates/typst-syntax" }
+typst-eval = { path = "../typst/crates/typst-eval" }
+typst-html = { path = "../typst/crates/typst-html" }
+typst-layout = { path = "../typst/crates/typst-layout" }
+tinymist-world = { path = "../tinymist/crates/tinymist-world" }
 # tinymist-world = { git = "https://github.com/Myriad-Dreamin/tinymist", rev = "0f9f4644567236bbfcd1b21baaa4b8bdf224ecb3" }
 # prettyless = { git = "https://github.com/typstyle-rs/prettyless", rev = "9afa5bdece2dbf14c54ade8bef46cd0828cb952b" }
