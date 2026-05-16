@@ -6,8 +6,9 @@ use typst::{
     diag::SourceDiagnostic,
     ecow::EcoVec,
     foundations::Smart,
-    layout::{Page, PagedDocument},
+    model::Document,
 };
+use typst_layout::{Page, PagedDocument};
 
 use crate::{ErrorSink, sink_assert_eq};
 
@@ -88,32 +89,32 @@ fn compare_docs_impl(
 fn check_doc_meta(left: &PagedDocument, right: &PagedDocument, sink: &mut ErrorSink) {
     sink_assert_eq!(
         sink,
-        left.pages.len(),
-        right.pages.len(),
+        left.pages().len(),
+        right.pages().len(),
         "The page counts are not consistent"
     );
     sink_assert_eq!(
         sink,
-        left.info.title,
-        right.info.title,
+        left.info().title,
+        right.info().title,
         "The titles are not consistent"
     );
     sink_assert_eq!(
         sink,
-        left.info.author,
-        right.info.author,
+        left.info().author,
+        right.info().author,
         "The authors are not consistent"
     );
     sink_assert_eq!(
         sink,
-        left.info.description,
-        right.info.description,
+        left.info().description,
+        right.info().description,
         "The descriptions are not consistent"
     );
     sink_assert_eq!(
         sink,
-        left.info.keywords,
-        right.info.keywords,
+        left.info().keywords,
+        right.info().keywords,
         "The keywords are not consistent"
     );
 }
@@ -143,7 +144,7 @@ fn check_png(
         name.replace(['/', '\\'], "__")
     }
 
-    for (i, (page_bf, page_af)) in before.pages.iter().zip(after.pages.iter()).enumerate() {
+    for (i, (page_bf, page_af)) in before.pages().iter().zip(after.pages().iter()).enumerate() {
         check_page(i, page_bf, page_af, sink);
 
         let png_bf = render_png(page_bf, i as u64);

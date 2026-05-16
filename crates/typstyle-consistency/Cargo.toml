@@ -22,6 +22,7 @@ rustc-hash.workspace = true
 tinymist-world.workspace = true
 typst-assets.workspace = true
 typst-render.workspace = true
+typst-layout.workspace = true
 typst.workspace = true
 
 fontdb = { version = "0.23", default-features = false, features = ["fs", "memmap"] } # tinymist-world missing features enabled
