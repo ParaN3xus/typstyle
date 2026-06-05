@@ -1,51 +1,25 @@
 // Borrowed from https://github.com/astral-sh/ruff/blob/main/crates/ruff_linter/src/source_kind.rs
+// Copied from crates/typstyle/src/diff.rs
 
-use std::{borrow::Cow, path::Path};
+use std::borrow::Cow;
 
 use colored::Colorize;
 use similar::{ChangeTag, TextDiff};
 
-use crate::fs;
-
-pub struct SourceDiff<'a> {
-    pub original: &'a str,
-    pub modified: &'a str,
-    pub path: Option<&'a Path>,
-}
-
-impl std::fmt::Display for SourceDiff<'_> {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        let mut diff = CodeDiff::new(self.original, self.modified);
-
-        let relative_path = self.path.map(fs::relativize_path);
-        if let Some(relative_path) = &relative_path {
-            diff.header(relative_path, relative_path);
-        }
-
-        writeln!(f, "{diff}")?;
-
-        Ok(())
-    }
-}
-
-struct CodeDiff<'a> {
+pub struct CodeDiff<'a> {
     diff: TextDiff<'a, 'a, str>,
     header: Option<(&'a str, &'a str)>,
     missing_newline_hint: bool,
 }
 
 impl<'a> CodeDiff<'a> {
-    fn new(original: &'a str, modified: &'a str) -> Self {
+    pub fn new(original: &'a str, modified: &'a str) -> Self {
         let diff = TextDiff::from_lines(original, modified);
         Self {
             diff,
             header: None,
             missing_newline_hint: true,
         }
-    }
-
-    fn header(&mut self, original: &'a str, modified: &'a str) {
-        self.header = Some((original, modified));
     }
 }
 
