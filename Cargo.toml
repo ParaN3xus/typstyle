@@ -90,14 +90,14 @@ inherits = "release"
 debug = true
 
 [patch.crates-io]
-typst = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
-typst-render = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
-typst-syntax = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
-typst-eval = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
-typst-html = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
-typst-layout = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
-typst-bundle = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
-tinymist-world = { git = "https://github.com/ParaN3xus/tinymist.git", branch = "nightly" }
-typst-shim = { git = "https://github.com/ParaN3xus/tinymist.git", branch = "nightly" }
+typst = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
+typst-render = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
+typst-syntax = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
+typst-eval = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
+typst-html = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
+typst-layout = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
+typst-bundle = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
+tinymist-world = { git = "https://github.com/ParaN3xus/tinymist.git", rev = "89f09aa685bf58128eea03fbeda8e788af2a4c1c" }
+typst-shim = { git = "https://github.com/ParaN3xus/tinymist.git", rev = "89f09aa685bf58128eea03fbeda8e788af2a4c1c" }
 # tinymist-world = { git = "https://github.com/Myriad-Dreamin/tinymist", rev = "0f9f4644567236bbfcd1b21baaa4b8bdf224ecb3" }
 # prettyless = { git = "https://github.com/typstyle-rs/prettyless", rev = "9afa5bdece2dbf14c54ade8bef46cd0828cb952b" }
