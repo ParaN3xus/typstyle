@@ -9,6 +9,7 @@ use typst::{
     model::Document,
 };
 use typst_layout::{Page, PagedDocument};
+use typst_render::RenderOptions;
 
 use crate::{ErrorSink, sink_assert_eq};
 
@@ -130,12 +131,13 @@ fn check_png(
         typst_render::render(
             &Page {
                 frame: page.frame.clone(),
+                bleed: Default::default(),
                 fill: Smart::Auto,
                 numbering: None,
                 supplement: Default::default(),
                 number,
             },
-            2.0,
+            &RenderOptions::default(),
         )
     };
 
