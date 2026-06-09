@@ -97,5 +97,6 @@ typst-html = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly
 typst-layout = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
 typst-bundle = { git = "https://github.com/ParaN3xus/typst.git", branch = "nightly" }
 tinymist-world = { git = "https://github.com/ParaN3xus/tinymist.git", branch = "nightly" }
+typst-shim = { git = "https://github.com/ParaN3xus/tinymist.git", branch = "nightly" }
 # tinymist-world = { git = "https://github.com/Myriad-Dreamin/tinymist", rev = "0f9f4644567236bbfcd1b21baaa4b8bdf224ecb3" }
 # prettyless = { git = "https://github.com/typstyle-rs/prettyless", rev = "9afa5bdece2dbf14c54ade8bef46cd0828cb952b" }
