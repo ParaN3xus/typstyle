@@ -25,4 +25,11 @@ typst-render.workspace = true
 typst-layout.workspace = true
 typst.workspace = true
 
-fontdb = { version = "0.23", default-features = false, features = ["fs", "memmap"] } # tinymist-world missing features enabled
+colored.workspace = true
+similar.workspace = true
+tiny-skia.workspace = true
+
+fontdb = { version = "0.23", default-features = false, features = [
+    "fs",
+    "memmap",
+] } # tinymist-world missing features enabled
