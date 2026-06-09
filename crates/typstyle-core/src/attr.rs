@@ -88,15 +88,15 @@ impl AttrStore {
         for child in node.children() {
             match child.kind() {
                 SyntaxKind::Space => {
-                    if child.text().has_linebreak() {
+                    if child.leaf_text().has_linebreak() {
                         is_multiline = true;
                     }
                 }
                 SyntaxKind::BlockComment => {
-                    is_multiline |= child.text().has_linebreak();
+                    is_multiline |= child.leaf_text().has_linebreak();
                 }
                 SyntaxKind::Str => {
-                    has_multiline_str |= child.text().has_linebreak();
+                    has_multiline_str |= child.leaf_text().has_linebreak();
                 }
                 SyntaxKind::Raw => {
                     let raw = child.cast::<ast::Raw>().expect("raw");
@@ -129,7 +129,7 @@ impl AttrStore {
                 SyntaxKind::LineComment | SyntaxKind::BlockComment => {
                     commented = true;
                     // @typstyle off affects the whole next block
-                    disable_next = child.text().contains("@typstyle off");
+                    disable_next = child.leaf_text().contains("@typstyle off");
                 }
                 SyntaxKind::Space | SyntaxKind::Hash => {}
                 SyntaxKind::Code | SyntaxKind::Math if disable_next => {
