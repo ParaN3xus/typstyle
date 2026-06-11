@@ -97,7 +97,7 @@ typst-eval = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415
 typst-html = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
 typst-layout = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
 typst-bundle = { git = "https://github.com/ParaN3xus/typst.git", rev = "6743cf2415fb3c11c292d371d16746cbee44c114" }
-tinymist-world = { git = "https://github.com/ParaN3xus/tinymist.git", rev = "89f09aa685bf58128eea03fbeda8e788af2a4c1c" }
-typst-shim = { git = "https://github.com/ParaN3xus/tinymist.git", rev = "89f09aa685bf58128eea03fbeda8e788af2a4c1c" }
+tinymist-world = { git = "https://github.com/ParaN3xus/tinymist.git", rev = "c5df57821ff086276641ba34d6d5f39370fda46d" }
+typst-shim = { git = "https://github.com/ParaN3xus/tinymist.git", rev = "c5df57821ff086276641ba34d6d5f39370fda46d" }
 # tinymist-world = { git = "https://github.com/Myriad-Dreamin/tinymist", rev = "0f9f4644567236bbfcd1b21baaa4b8bdf224ecb3" }
 # prettyless = { git = "https://github.com/typstyle-rs/prettyless", rev = "9afa5bdece2dbf14c54ade8bef46cd0828cb952b" }
